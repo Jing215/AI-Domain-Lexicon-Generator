@@ -6,8 +6,6 @@ import re
 import gc
 
 # --- パス設定 (Path Settings) ---
-# このスクリプトファイルがあるディレクトリを基準に、各フォルダへのパスを自動生成します。
-# これにより、プロジェクトフォルダをどこに置いてもコードが正しく動作します。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PDF_DIR = os.path.join(BASE_DIR, 'data')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
